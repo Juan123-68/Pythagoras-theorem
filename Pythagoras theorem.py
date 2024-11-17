@@ -3,7 +3,7 @@ first_number = input("Inserte el primer número: ")
 second_number = input("Inserte el segundo número: ")
 
 
-from math import sqrt # sqrt significa raíz cuadrada
+from math import sqrt
 
 
 def pythagoras_theorem(number_one, number_two):
