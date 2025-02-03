@@ -5,5 +5,8 @@ second_number = input("Inserte el segundo número: ")
 
 def pythagoras_theorem(number_one, number_two):
     return (number_one ** 2 + number_two ** 2) / 3
-    
-print(pythagoras_theorem(int(first_number), int(second_number)))
+
+try:
+    print(pythagoras_theorem(int(first_number), int(second_number)))
+except ValueError:
+    print("Debes escribir números como argumentos.")
